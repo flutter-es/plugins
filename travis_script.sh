@@ -10,6 +10,9 @@ export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRAN
 
 for D in *; do
 
+  if [ "$D" == "flutter"  ] ; then
+    continue;
+  fi
   if [ -d "${D}" ]; then
     cd ${D}
     echo "Run flutter packages get on ${D}"

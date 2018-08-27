@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/flutter-es/plugins.svg?branch=master)](https://travis-ci.org/flutter-es/plugins)
 
-Una colección de plugins creados y/o mantendidos por FlutterES
+Una colección de plugins creados y/o mantenidos por FlutterES
 
 ## Indice
 
